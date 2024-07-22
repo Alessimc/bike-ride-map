@@ -1,0 +1,78 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and database files
+*.log
+*.sqlite3
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore web server files (if any)
+*.pem
+
+# Ignore node_modules if using npm for front-end dependencies
+node_modules/
+
+# Ignore Python virtual environment
+env/
+.venv/
+
+# Ignore generated GPX files (optional if you prefer not to track them in git)
+gpx/*.gpx
+
+# Ignore JSON files listing GPX files (if generated)
+data/gpx_files.json
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+*.swp
+*.tmp
+*.bak
+*.old
+
+# Ignore coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+.cache
+.pytest_cache/
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+
+# Ignore compiled JavaScript files (optional if using a build tool like Webpack)
+*.js.map
+
+# Ignore GitHub Actions workflow logs
+.github/workflows/*.log
+
+# Ignore Nginx server files (if any)
+nginx/
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore MacOS specific files
+*.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
