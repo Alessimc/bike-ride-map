@@ -12,18 +12,20 @@ This project displays an interactive map of all your bike rides, with routes aut
 
 ## Project Structure
 
+```
 bike-rides-map/
-├── gpx/ # Directory to store GPX files
-│ ├── ride1.gpx
-│ ├── ride2.gpx
-│ └── ... # Additional GPX files
+├── gpx/                # Directory to store GPX files
+│   ├── ride1.gpx
+│   ├── ride2.gpx
+│   └── ...             # Additional GPX files
 ├── js/
-│ └── update_gpx_files.py # Python script to update the GPX list
+│   └── update_gpx_files.py  # Python script to update the GPX list
 ├── data/
-│ └── gpx_files.json # JSON file listing all GPX files
-├── index.html # Main HTML file for the map
-├── styles.css # Optional custom styles for the map
-└── README.md # Project documentation
+│   └── gpx_files.json  # JSON file listing all GPX files
+├── index.html          # Main HTML file for the map
+├── styles.css          # Optional custom styles for the map
+└── README.md           # Project documentation
+```
 
 ## Setup Instructions
 
